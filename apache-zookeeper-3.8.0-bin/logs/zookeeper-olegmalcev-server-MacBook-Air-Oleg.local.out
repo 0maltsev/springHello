@@ -1,0 +1,107 @@
+2023-05-22 20:47:51,700 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /Users/olegmalcev/IdeaProjects/springUtils/apache-zookeeper-3.8.0-bin/bin/../conf/zoo.cfg
+2023-05-22 20:47:51,702 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2023-05-22 20:47:51,702 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2023-05-22 20:47:51,702 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2023-05-22 20:47:51,702 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider
+2023-05-22 20:47:51,704 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2023-05-22 20:47:51,704 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2023-05-22 20:47:51,704 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@101] - Purge task is not scheduled.
+2023-05-22 20:47:51,704 [myid:] - WARN  [main:o.a.z.s.q.QuorumPeerMain@139] - Either no config or no quorum defined in config, running in standalone mode
+2023-05-22 20:47:51,704 [myid:] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+2023-05-22 20:47:51,705 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /Users/olegmalcev/IdeaProjects/springUtils/apache-zookeeper-3.8.0-bin/bin/../conf/zoo.cfg
+2023-05-22 20:47:51,705 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2023-05-22 20:47:51,705 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2023-05-22 20:47:51,705 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2023-05-22 20:47:51,705 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider
+2023-05-22 20:47:51,705 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServerMain@123] - Starting server
+2023-05-22 20:47:51,712 [myid:] - INFO  [main:o.a.z.m.p.PrometheusMetricsProvider@113] - Initializing metrics, configuration: {exportJvmInfo=true, httpPort=7000}
+2023-05-22 20:47:51,712 [myid:] - INFO  [main:o.a.z.m.p.PrometheusMetricsProvider@562] - Executor service was created with numWorkerThreads 1 and maxQueueSize 1000000
+2023-05-22 20:47:51,713 [myid:] - INFO  [main:o.a.z.m.p.PrometheusMetricsProvider@129] - Starting /metrics HTTP endpoint at host: 0.0.0.0, port: 7000, exportJvmInfo: true
+2023-05-22 20:47:51,728 [myid:] - INFO  [main:o.e.j.u.l.Log@170] - Logging initialized @541ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-05-22 20:47:51,761 [myid:] - INFO  [main:o.e.j.s.Server@375] - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 18.0.1.1+2-6
+2023-05-22 20:47:51,775 [myid:] - INFO  [main:o.e.j.s.h.ContextHandler@915] - Started o.e.j.s.ServletContextHandler@3a44431a{/,null,AVAILABLE}
+2023-05-22 20:47:51,779 [myid:] - ERROR [main:o.a.z.m.p.PrometheusMetricsProvider@141] - Cannot start /metrics server
+java.io.IOException: Failed to bind to /0.0.0.0:7000
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider.start(PrometheusMetricsProvider.java:139)
+	at org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap.startMetricsProvider(MetricsProviderBootstrap.java:45)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:127)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:113)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:68)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:141)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:91)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 13 common frames omitted
+2023-05-22 20:47:51,781 [myid:] - INFO  [main:o.e.j.s.AbstractConnector@381] - Stopped ServerConnector@57250572{HTTP/1.1, (http/1.1)}{0.0.0.0:7000}
+2023-05-22 20:47:51,782 [myid:] - INFO  [main:o.e.j.s.h.ContextHandler@1153] - Stopped o.e.j.s.ServletContextHandler@3a44431a{/,null,STOPPED}
+2023-05-22 20:47:51,782 [myid:] - ERROR [main:o.a.z.m.i.MetricsProviderBootstrap@55] - Cannot boot MetricsProvider org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider
+org.apache.zookeeper.metrics.MetricsProviderLifeCycleException: java.io.IOException: Failed to bind to /0.0.0.0:7000
+	at org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider.start(PrometheusMetricsProvider.java:151)
+	at org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap.startMetricsProvider(MetricsProviderBootstrap.java:45)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:127)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:113)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:68)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:141)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:91)
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:7000
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider.start(PrometheusMetricsProvider.java:139)
+	... 6 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 13 common frames omitted
+2023-05-22 20:47:51,782 [myid:] - ERROR [main:o.a.z.s.ZooKeeperServerMain@91] - Unexpected exception, exiting abnormally
+java.io.IOException: Cannot boot MetricsProvider org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:131)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:113)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:68)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:141)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:91)
+Caused by: org.apache.zookeeper.metrics.MetricsProviderLifeCycleException: java.io.IOException: Failed to bind to /0.0.0.0:7000
+	at org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider.start(PrometheusMetricsProvider.java:151)
+	at org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap.startMetricsProvider(MetricsProviderBootstrap.java:45)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:127)
+	... 4 common frames omitted
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:7000
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.apache.zookeeper.metrics.prometheus.PrometheusMetricsProvider.start(PrometheusMetricsProvider.java:139)
+	... 6 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 13 common frames omitted
+2023-05-22 20:47:51,782 [myid:] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2023-05-22 20:47:51,783 [myid:] - ERROR [main:o.a.z.u.ServiceUtils@42] - Exiting JVM with code 1
