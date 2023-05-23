@@ -1,0 +1,154 @@
+23-05-2023 08:30:15.533 [main] INFO  com.mipt.omaltsev.producer.Producer.logStarting - Starting Producer v0.0.1-SNAPSHOT using Java 18.0.1.1 with PID 78494 (/Users/olegmalcev/IdeaProjects/springUtils/Producer/build/libs/Producer-0.0.1-SNAPSHOT.jar started by olegmalcev in /Users/olegmalcev/IdeaProjects/springUtils)
+23-05-2023 08:30:15.535 [main] INFO  com.mipt.omaltsev.producer.Producer.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-05-2023 08:30:16.096 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=9cf5ffad-7c49-3f0c-8f01-c9eb7416fbe6
+23-05-2023 08:30:16.124 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23-05-2023 08:30:16.125 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23-05-2023 08:30:16.126 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23-05-2023 08:30:16.253 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9992 (http)
+23-05-2023 08:30:16.258 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-9992"]
+23-05-2023 08:30:16.258 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+23-05-2023 08:30:16.259 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.7]
+23-05-2023 08:30:16.300 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+23-05-2023 08:30:16.301 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 739 ms
+23-05-2023 08:30:16.714 [main] INFO  o.a.c.f.imps.CuratorFrameworkImpl.start - Starting
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 02/25/2020 14:38 GMT
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:host.name=localhost
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:java.version=18.0.1.1
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:java.vendor=Oracle Corporation
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:java.home=/Users/olegmalcev/Library/Java/JavaVirtualMachines/openjdk-18.0.1.1/Contents/Home
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:java.class.path=Producer/build/libs/Producer-0.0.1-SNAPSHOT.jar
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:java.library.path=/Users/olegmalcev/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:java.io.tmpdir=/var/folders/6n/zknklvh532b_l15nl97chnl80000gn/T/
+23-05-2023 08:30:16.718 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:java.compiler=<NA>
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:os.name=Mac OS X
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:os.arch=aarch64
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:os.version=12.6
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:user.name=olegmalcev
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:user.home=/Users/olegmalcev
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:user.dir=/Users/olegmalcev/IdeaProjects/springUtils
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:os.memory.free=69MB
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:os.memory.max=4096MB
+23-05-2023 08:30:16.719 [main] INFO  org.apache.zookeeper.ZooKeeper.logEnv - Client environment:os.memory.total=108MB
+23-05-2023 08:30:16.722 [main] INFO  org.apache.zookeeper.ZooKeeper.<init> - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4303b7f0
+23-05-2023 08:30:16.726 [main] INFO  o.apache.zookeeper.common.X509Util.<clinit> - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+23-05-2023 08:30:16.731 [main] INFO  o.apache.zookeeper.ClientCnxnSocket.initProperties - jute.maxbuffer value is 1048575 Bytes
+23-05-2023 08:30:16.734 [main] INFO  org.apache.zookeeper.ClientCnxn.initRequestTimeout - zookeeper.request.timeout value is 0. feature enabled=false
+23-05-2023 08:30:16.738 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181.
+23-05-2023 08:30:16.738 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:16.741 [main] INFO  o.a.c.f.imps.CuratorFrameworkImpl.start - Default schema
+23-05-2023 08:30:16.743 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:17.853 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/127.0.0.1:2181.
+23-05-2023 08:30:17.853 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:17.854 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:18.969 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181.
+23-05-2023 08:30:18.972 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:18.975 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:20.120 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181.
+23-05-2023 08:30:20.120 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:20.122 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:21.229 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/127.0.0.1:2181.
+23-05-2023 08:30:21.230 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:21.231 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:22.336 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181.
+23-05-2023 08:30:22.337 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:22.337 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:23.447 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181.
+23-05-2023 08:30:23.449 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:23.450 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:24.553 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/127.0.0.1:2181.
+23-05-2023 08:30:24.554 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:24.555 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:25.666 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/127.0.0.1:2181.
+23-05-2023 08:30:25.667 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:25.669 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:26.774 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - Opening socket connection to server localhost/127.0.0.1:2181.
+23-05-2023 08:30:26.774 [main-SendThread(localhost:2181)] INFO  org.apache.zookeeper.ClientCnxn.logStartConnect - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+23-05-2023 08:30:26.774 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn.run - Session 0x0 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+23-05-2023 08:30:26.810 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.afterPropertiesSet - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+23-05-2023 08:30:26.814 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+23-05-2023 08:30:26.841 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-9992"]
+23-05-2023 08:30:26.843 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+23-05-2023 08:30:26.845 [Curator-Framework-0] INFO  o.a.c.f.imps.CuratorFrameworkImpl.backgroundOperationsLoop - backgroundOperationsLoop exiting
+23-05-2023 08:30:26.985 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn.run - EventThread shut down for session: 0x0
+23-05-2023 08:30:26.985 [main] INFO  org.apache.zookeeper.ZooKeeper.close - Session: 0x0 closed
+23-05-2023 08:30:26.996 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-9992"]
+23-05-2023 08:30:26.996 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+23-05-2023 08:30:27.002 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-9992"]
+23-05-2023 08:30:27.002 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-9992"]
+23-05-2023 08:30:27.015 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23-05-2023 08:30:27.026 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9992 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9992 or configure this application to listen on another port.
+

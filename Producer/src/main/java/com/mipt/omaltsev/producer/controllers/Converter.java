@@ -10,21 +10,21 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("convert")
-public class ExchangeController {
+public class Converter {
 
-    private static final Logger log = LoggerFactory.getLogger(ExchangeController.class);
+    private static final Logger log = LoggerFactory.getLogger(Converter.class);
 
     @Value("${instance.name}")
     private String instanceName;
+    HashMap<String, Object> response = new HashMap<>();
     @GetMapping("from/{firstCurrency}/to/{secondCurrency}")
     public Map<String, Object> exchange(@PathVariable String firstCurrency, @PathVariable String secondCurrency,
                                         @RequestParam int value) {
-        log.info(instanceName + " get exchange request: " + firstCurrency + " to " + secondCurrency + " value = " + value);
-        HashMap<String, Object> response = new HashMap<>();
-        float result = (float) (value * 0.013);
+        log.info(instanceName + " " + firstCurrency + " -> " + secondCurrency + " value = " + value);
+        double result = (value * 0.01);
         response.put(secondCurrency, result);
         response.put("instanceId", instanceName);
-        log.info(instanceName + " send response: " + secondCurrency + " = " + result);
+        log.info(instanceName + " result: " + result);
         return response;
     }
 }
